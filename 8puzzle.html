@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>8PUZZLEA*</title>
+<link rel="icon" type="image/png/jpg/jpeg" href="images/Puzzle.jpeg">
+<link rel="stylesheet" href="8puzzle.css">
+
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<script>
+function start()
+{
+alert("hey you are going to solve puzzle");
+var one = document.getElementById("one")
+var two = document.getElementById("two")
+var three = document.getElementById("three");
+var four = document.getElementById("four");
+var five = document.getElementById("five");
+var six = document.getElementById("six");
+var seven = document.getElementById("seven");
+var eight = document.getElementById("eight");
+var check = document.getElementById("check");
+//alert("4<->1");
+
+one.innerHTML=1;
+four.innerHTML=4;
+check.innerHTML="4<->1";
+//alert("3<->5");
+three.innerHTML=3;
+two.innerHTML=5;
+check.innerHTML="4<->1<br>3<->5";
+//alert("5<->2");
+five.innerHTML=5;
+two.innerHTML=2;
+check.innerHTML="4<->1<br>3<->5<br>5<->2";
+
+six.innerHTML=6;
+seven.innerHTML=8;
+check.innerHTML="4<->1<br>3<->5<br>5<->2<br>8<->6";
+
+seven.innerHTML=7;
+eight.innerHTML=8;
+check.innerHTML="4<->1<br>3<->5<br>5<->2<br>8<->6<br>8<->7";
+}
+
+
+
+</script>
+</head>
+<body>
+<div id="puz"></div>
+<div id="one" class="item">4</div>
+<div id="two" class="item"> 3</div>
+<div id="three" class="item">5</div>
+<div id="four" class="item">1</div>
+<div id="five" class="item">2</div>
+<div id="six" class="item">8</div>
+<div id="seven" class="item">6</div>
+<div id="eight" class="item">7</div>
+<div id="blank" class="item"></div>
+<div id="start"  onClick="start()">START!!!!</div> 
+<div id="check"><strong><i><u><b>CHECKBOARD</b></u></i></strong></div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+body
+{
+background:url('images/bgg.jpg');
+}
+div#puz
+{
+border : 10px solid silver;
+width:543px;
+height:543px;
+position:absolute;
+top:20px;
+left:420px;
+}
+div.item
+{border:2px solid grey;
+width:180px;
+height:180px;
+position: absolute;
+background:orange;
+font-family:Edwardian Script ITC;
+font-size:140px;
+text-align:center;
+color:brown;
+}
+div#one{
+left:430px;
+top:30px;
+      }
+	  
+div#two{
+left:610px;
+top:30px;
+      }
+div#three{
+left:790px;
+top:30px;
+      }
+div#four{
+left:430px;
+top:210px;
+      }
+div#five{
+left:610px;
+top:210px;
+      }
+div#six{
+left:790px;
+top:210px;
+      }
+div#seven{
+left:430px;
+top:390px;
+      }
+div#eight{
+left:610px;
+top:390px;
+      }
+div#blank{
+left:790px;
+top:390px;
+background:silver;      }
+div#start
+{
+border:10px solid purple;
+border-radius:25px;
+position:absolute;
+bottom:0px;
+left:590px;
+height:50px;
+width:210px;
+background:#66FF99;
+text-align:center;
+font-family:Curlz MT;
+font-size:40px;
+color:#660066;
+}	  
+div#check
+{
+position:absolute;
+top:200px;
+left:20px;
+width:200px;
+height:200px;
+border:5px solid black;
+}	  
+	  
+	  
+	  
+	  
